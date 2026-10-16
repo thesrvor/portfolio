@@ -7,7 +7,7 @@ const timeline = [
     company: "Layer",
     location: "Building",
     description:
-      "Building Layer, a web development and digital services agency, while creating content around what I build and learn. Continuing to learn, build things I enjoy, and document the journey of becoming an engineer and entrepreneur.",
+      "Building Saas product, a product to help local businesses grow online and reach more customers, while creating content around what I build and learn. Continuing to learn, build things I enjoy, and document the journey of becoming an engineer and entrepreneur.",
     type: "CURRENT",
   },
 
@@ -17,7 +17,7 @@ const timeline = [
     company: "Personal Projects",
     location: "Remote",
     description:
-      "Learned TypeScript, Next.js, Prisma, and PostgreSQL while building more structured applications. Also started creating content around my projects and learnings — something I had been postponing since 2025.",
+      "Learned TypeScript, Next.js, Prisma, and PostgreSQL while building more structured applications. Also started creating content around my projects and learnings, something I had been postponing since 2025.",
     type: "LEARNING",
   },
 
@@ -73,7 +73,7 @@ export default function Journey() {
         <p className="max-w-2xl mb-16 text-[clamp(1rem,3vw,1.2rem)] text-muted leading-relaxed">
           My path into web development started in 2023. From learning the
           fundamentals to building full-stack applications, creating content,
-          and starting my own agency — this is how the journey has evolved.
+          and working on a SAAS Product.
         </p>
 
         {/* Timeline */}

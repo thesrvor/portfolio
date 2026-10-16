@@ -49,21 +49,7 @@ export default function About() {
             </p>
 
             <p className="text-[clamp(1rem,3vw,1.2rem)] text-muted leading-relaxed">
-              Currently, I'm building{" "}
-              <a
-                href="https://layer.today"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:underline"
-              >
-                Layer
-              </a>
-              , a web development and digital services agency, while working on
-              new projects and exploring{" "}
-              <span className="text-accent">SaaS products</span>. I'm also
-              creating content around what I build, what I learn, and my journey
-              as an <span className="text-accent">engineer</span> and{" "}
-              <span className="text-accent">entrepreneur</span>.
+              Currently, I'm building a SaaS product, exploring product development and business fundamentals, and learning DevOps to better understand deployment, infrastructure, and the systems behind reliable applications. Alongside development, I create content documenting what I build, what I learn, and my journey as a developer and aspiring entrepreneur.
             </p>
           </div>
 

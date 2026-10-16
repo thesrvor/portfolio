@@ -2,14 +2,24 @@ import { FaInstagram } from "react-icons/fa";
 
 const projects = [
   {
+    title: "Authentication Template",
+    description:
+      "A reusable authentication backend built with TypeScript, Express, Prisma, and PostgreSQL. It includes user registration, login, logout, profile management, protected routes, password hashing, JWT authentication, and structured error handling.",
+    tags: ["TypeScript", "Express", "Prisma", "PostgreSQL", "JWT", "Bcrypt"],
+    type: "backend",
+    liveUrl:
+      "https://github.com/thesrvor/Authentication_Template/blob/main/README.md",
+    codeUrl: "https://github.com/thesrvor/Authentication_Template",
+  },
+  {
     title: "URL SHORTENER WITH AUTHENTICATION",
     description:
       "A simple URL shortening service that allows users to create custom short links, track click analytics, and manage their URLs through a dashboard. It also includes user authentication, enabling secure access to personal link data and management features.",
     tags: ["MERN", "JWT", "Bcrypt", "React-Router-Dom", "Node.js", "MongoDB"],
     type: "backend",
     liveUrl:
-      "https://github.com/notebookyash/URL-shortener/blob/main/README.md",
-    codeUrl: "https://github.com/notebookyash/URL-shortener",
+      "https://github.com/thesrvor/URL-shortener/blob/main/README.md",
+    codeUrl: "https://github.com/thesrvor/URL-shortener",
   },
 
   {
@@ -19,7 +29,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Tailwind"],
     type: "frontend",
     liveUrl: "https://aurelion-clothing.netlify.app/",
-    codeUrl: "https://github.com/notebookyash/Aurelion",
+    codeUrl: "https://github.com/thesrvor/Aurelion",
   },
 
   {
@@ -29,7 +39,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Tailwind"],
     type: "frontend",
     liveUrl: "https://lejaridan.netlify.app/",
-    codeUrl: "https://github.com/notebookyash/restraunt-landing-page",
+    codeUrl: "https://github.com/thesrvor/restraunt-landing-page",
   },
 
   {
@@ -39,19 +49,9 @@ const projects = [
     tags: ["TypeScript", "React.js", "Tailwind CSS"],
     type: "frontend",
     liveUrl: "https://uinovafx.netlify.app/",
-    codeUrl: "https://github.com/notebookyash/UI-Nova-portfolio",
+    codeUrl: "https://github.com/thesrvor/UI-Nova-portfolio",
   },
 
-  {
-    title: "Authentication Template",
-    description:
-      "A reusable authentication backend built with TypeScript, Express, Prisma, and PostgreSQL. It includes user registration, login, logout, profile management, protected routes, password hashing, JWT authentication, and structured error handling.",
-    tags: ["TypeScript", "Express", "Prisma", "PostgreSQL", "JWT", "Bcrypt"],
-    type: "backend",
-    liveUrl:
-      "https://github.com/notebookyash/Authentication_Template/blob/main/README.md",
-    codeUrl: "https://github.com/notebookyash/Authentication_Template",
-  },
 ];
 
 export default function Projects() {
@@ -118,7 +118,7 @@ export default function Projects() {
 
         <div className="mt-16 text-center">
           <a
-            href="https://www.instagram.com/notebook.yash"
+            href="https://www.instagram.com/thesrvor/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 text-sm text-muted hover:text-accent transition-colors group"

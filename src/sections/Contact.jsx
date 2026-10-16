@@ -17,32 +17,32 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const socialLinks = [
   {
     platform: "Instagram",
-    url: "https://www.instagram.com/notebook.yash",
-    handle: "@notebook.yash",
+    url: "https://www.instagram.com/thesrvor",
+    handle: "@thesrvor",
     icon: FaInstagram,
   },
   {
     platform: "Youtube",
-    url: "https://www.youtube.com/@notebookyash",
-    handle: "@notebookyash",
+    url: "https://www.youtube.com/@thesrvor",
+    handle: "@thesrvor",
     icon: FaYoutube,
   },
   {
     platform: "LinkedIn",
-    url: "https://www.linkedin.com/in/notebookyash/",
-    handle: "notebookyash",
+    url: "https://www.linkedin.com/in/thesrvor/",
+    handle: "thesrvor",
     icon: FaLinkedin,
   },
   {
     platform: "X (formerly Twitter)",
-    url: "https://www.x.com/notebook_yash",
-    handle: "@notebook_yash",
+    url: "https://www.x.com/thesrvor",
+    handle: "@thesrvor",
     icon: FaSquareXTwitter,
   },
   {
     platform: "GitHub",
-    url: "https://github.com/notebookyash",
-    handle: "github.com/notebookyash",
+    url: "https://github.com/thesrvor",
+    handle: "github.com/thesrvor",
     icon: FaGithub,
   },
   {
